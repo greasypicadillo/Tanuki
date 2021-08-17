@@ -1,0 +1,15 @@
+#homeButton {
+    background: none;
+    color: white;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all .25s;
+}
+#homeButton:hover { 
+    border-color: #f1ff5c;
+    color: #f1ff5c;
+    box-shadow: 0 .5em .5em -.4em #f1ff5c;
+    transform: translatey(-.25em);
+    cursor: pointer;
+}

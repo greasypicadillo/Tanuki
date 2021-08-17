@@ -1,0 +1,24 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #14213d;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="https://banner2.cleanpng.com/20180623/yu/kisspng-japanese-raccoon-dog-ouchiyama-zoo-animal-sauvage-tanuki-5b2ee5e466be79.9291050915298001644209.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Tanuki</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="/campgrounds">Plates</a>
+                <a class="nav-link" href="/campgrounds/new">Found a New Trash Plate?</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <% if(!currentUser) {%>
+                <a class="nav-link" href="/login">Login</a>
+                <a class="nav-link" href="/register">Register</a>
+                <% } else {%>
+                <a class="nav-link" href="/logout">Logout</a>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</nav>
